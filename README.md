@@ -1,32 +1,37 @@
 # Ray Cipher
 
-A Python-based numerical cipher encoder, decoder, and brute-force shift analyzer.
+**A Python-based numerical encoding and decoding system.**
+
+Ray Cipher is an educational command-line project built with Python. It converts alphabetic text into numerical sequences using a fixed alphabet shift and allows users to decode the sequences back into readable text.
 
 ## Features
 
-- Encode text into numerical sequences.
-- Decode numerical sequences into readable text.
-- Test all 26 possible alphabet shifts.
-- Colored terminal interface and loading animation.
+- **Encode:** Convert text into numerical sequences.
+- **Decode:** Restore encoded sequences to readable text.
+- **Terminal interface:** Colored output and a centered ASCII banner.
+- **Interactive menu:** Simple options for encoding, decoding, and viewing project information.
+- **Lightweight:** Uses Python's standard library without additional dependencies.
 
 ## Project Structure
 
 | File | Description |
 | --- | --- |
-| `ray_cipher.py` | Encodes and decodes messages. |
-| `ray_cracker.py` | Tests all 26 possible shifts. |
+| `ray_cipher.py` | Main Ray Cipher encoder and decoder. |
+| `README.md` | Project documentation. |
 
 ## Requirements
 
 - Python 3
-- Terminal or command-line interface
+- A terminal or command-line interface
+
+No third-party Python packages are required.
 
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ray-cipher.git
+git clone https://github.com/RayH4T/ray-cipher.git
 cd ray-cipher
 ```
 
@@ -38,21 +43,17 @@ Run Ray Cipher:
 python3 ray_cipher.py
 ```
 
-Run Ray Cracker:
-
-```bash
-python3 ray_cracker.py
-```
+Follow the on-screen menu to encode or decode a message.
 
 ## Example
 
-Input:
+**Input:**
 
 ```text
 WHO IS RAY
 ```
 
-Output:
+**Encoded output:**
 
 ```text
 15-12-19-19-22-0-4-22-25-19-11
@@ -60,17 +61,15 @@ Output:
 
 ## How It Works
 
-Ray Cipher uses a fixed alphabet shift derived from an internal key. Spaces are represented by `0`, and numbers are separated by hyphens.
-
-Ray Cracker tests all 26 possible shifts and displays each candidate.
+Ray Cipher applies a fixed alphabet shift derived from an internal key. Letters are converted into numbers, while spaces are represented by `0`. Numbers are separated by hyphens.
 
 ## Disclaimer
 
-This project is for educational purposes only. It is not secure encryption and should not be used to protect confidential information.
+Ray Cipher is intended for educational purposes and experimentation with basic cryptography concepts. It is not secure encryption and should not be used to protect passwords, confidential information, or sensitive communications.
 
 ## Author
 
-RAY
+**RAY**
 
 ## License
 
