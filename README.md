@@ -65,10 +65,10 @@ Ray Cipher applies a fixed alphabet shift derived from an internal key. Letters 
 
 ## Screenshots
 
-### Decode Example
+### Encode Example
 ![Ray Cipher Encode](IMG_8719.jpeg)
 
-### Encode Example
+### Decode Example
 ![Ray Cipher Decode](IMG_8718.jpeg)
 
 ## Disclaimer
